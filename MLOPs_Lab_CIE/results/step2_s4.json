@@ -1,0 +1,16 @@
+{
+  "health_endpoint": "/heartbeat",
+  "predict_endpoint": "/predict",
+  "port": 8000,
+  "health_response": {
+    "status": "healthy",
+    "model_loaded": true
+  },
+  "test_input": {
+    "screen_capacity": 290,
+    "movie_rating": 4.7,
+    "ticket_price": 268,
+    "days_since_release": 35
+  },
+  "prediction": 46.31
+}

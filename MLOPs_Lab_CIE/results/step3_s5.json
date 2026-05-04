@@ -1,0 +1,23 @@
+{
+    "total_predictions": 50,
+    "mean_prediction": 59.22,
+    "drift_detected": true,
+    "alerts": [
+        {
+            "feature": "movie_rating",
+            "train_mean": 5.88,
+            "live_mean": 8.35,
+            "shift": 2.47,
+            "threshold": 2.01,
+            "status": "ALERT"
+        },
+        {
+            "feature": "days_since_release",
+            "train_mean": 31.56,
+            "live_mean": 48.0,
+            "shift": 16.44,
+            "threshold": 13.46,
+            "status": "ALERT"
+        }
+    ]
+}
